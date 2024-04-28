@@ -1,0 +1,24 @@
+
+body
+{
+    background-image: url("https://i.imgur.com/qOvNuCG.jpeg");
+    background-attachment: fixed;
+}
+.Centrar-Altura
+{
+    line-height: 4;
+    text-indent: 25px;
+}
+.ms-6{
+        margin-left: 120px;
+}
+.mt-6{
+    margin-top: 120px;
+}
+.mb-6{
+    margin-bottom: 120px;
+}
+.bg-terciary
+{
+    background-color: #292929;
+}
