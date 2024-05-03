@@ -1,14 +1,12 @@
+import Carrusel from "../components/carrusel";
 function Productos()
 {
     return (
     <div className="container">
         <div className="row">
-            <div className="col-md-12">
-                    <h1>HOLA productos</h1>
+            <div className="col-md-6">
+                <Carrusel/>
             </div>
-
-
-
         </div>
 
 
