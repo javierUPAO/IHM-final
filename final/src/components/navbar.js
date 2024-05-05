@@ -24,7 +24,7 @@ function Navb() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <img className='img-thumbnail p-0' src='https://i.imgur.com/CyaR5fL.png' onClick={() => {handleClick("/home");}} style={{width:'100px',height:'90px'}} ></img>
+            <img alt='logo de gino' src='https://i.imgur.com/CyaR5fL.png' onClick={() => {handleClick("/home");}} style={{width:'100px',height:'90px'}} ></img>
             <Nav.Link className='Centrar-Altura' href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
             <NavDropdown className='Centrar-Altura' title="Productos" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="../productos/cortinas">  Cortinas </NavDropdown.Item>
