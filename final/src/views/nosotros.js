@@ -63,7 +63,8 @@ function Nosotros()
                             <img src="https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png" alt="ubicacion" className="img-fluid"></img>
                         </div>    
                         <div className="row">
-                            <p>Nos ubicamos en .....</p>
+                        
+                            <p className="text-start">Dirección: AV.Peru Calle 134 ,Trujillo</p>
                         </div>
                         
 
@@ -109,6 +110,9 @@ function Nosotros()
 
              </div>
 
+            <br></br>
+            <br></br>
+            <br></br>
 
             <div className="row">
 
