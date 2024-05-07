@@ -18,10 +18,10 @@ function Footer ()
                 <div className="row p-3"><p className="text-light">© IHM-2024 All Rights Reserved.</p></div>
                 <div className="row text-center p-3">
                     <div className="col-md-6">
-                        <Link to="" className="text-light text-decoration-none " target="_blank">Terminos y condciones</Link>
+                        <Link to="terminos-y-condiciones" className="text-light text-decoration-none " target="_blank">Terminos y condciones</Link>
                     </div>
                     <div className="col-md-6">
-                        <Link to=""className="text-light text-decoration-none" target="_blank" >Politicas de privacidad</Link>
+                        <Link to="politicas"className="text-light text-decoration-none" target="_blank" >Politicas de privacidad</Link>
                     </div>
                 </div>
 

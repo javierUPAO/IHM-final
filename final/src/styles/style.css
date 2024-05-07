@@ -41,3 +41,57 @@ body
     width: 100vw;
 }
 
+
+.titulo{
+    color: rgba(220, 1, 1, 0.668);
+    padding: 5px;
+    font-size: 25px;
+}
+
+.politicas-div h2{
+    color: var(--secondary-color);
+    color: royalblue;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.parrafo-grande{
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(88, 88, 88);
+    font-size: 15px;
+    padding: 15px;
+    
+}
+
+.letra-costado{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-securiti{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.politicas-div p {
+    font-size: 15px;
+}
+
+.header-nosotros
+{
+    color: #fff; 
+    font-weight: bold;
+  
+}
+.header-nosotros h2{
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.parrafo-privacidad{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(88, 88, 88);
+    padding: 20px;
+}
