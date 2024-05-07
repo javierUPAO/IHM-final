@@ -24,3 +24,12 @@ body
 {
     background-color: #292929;
 }
+
+.relleno{
+    height: 80vh;
+}
+
+.relleno-w{
+    width: 100vw;
+}
+

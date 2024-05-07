@@ -5,7 +5,7 @@ function Home()
 {
    
    return(
-        <div id="home-container" className="container">
+        <div id="home-container" className="container relleno">
             <div className="row mb-6">
                 <div className="col-md-6 p-5 ">     
                     <h1 className="text-light fs-1 mt-6">Decoraciones textiles Gino's</h1>
