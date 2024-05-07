@@ -30,7 +30,7 @@ function Navb() {
             <Nav.Link className='Centrar-Altura' href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
             <NavDropdown className='Centrar-Altura' title="Productos" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="../productos/cortinas">  Cortinas </NavDropdown.Item>
-              <NavDropdown.Item href="../productos/persianas">  Persianas </NavDropdown.Item>
+              <NavDropdown.Item href="../productos/accesorios_y_mantenimiento">  Accesorios y Mantenimiento </NavDropdown.Item>
               <NavDropdown.Item href="../productos/rollers"> Rollers </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className='Centrar-Altura' href="#"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
