@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+              import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -31,9 +31,9 @@ function Navb() {
               <NavDropdown.Item href="../productos/persianas">  Persianas </NavDropdown.Item>
               <NavDropdown.Item href="../productos/rollers"> Rollers </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='Centrar-Altura' href="#action5"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
-            <Nav.Link className='Centrar-Altura' href="#action6"> <i data-feather = "phone-call"> </i> Contactanos </Nav.Link>
-            <Nav.Link className='Centrar-Altura'href="#action6"> <i data-feather = "users"> </i> Nosotros </Nav.Link>
+            <Nav.Link className='Centrar-Altura' href="#"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
+            <Nav.Link className='Centrar-Altura' href="/contactanos"> <i data-feather = "phone-call"> </i> Contactanos </Nav.Link>
+            <Nav.Link className='Centrar-Altura'href="/nosotros"> <i data-feather = "users"> </i> Nosotros </Nav.Link>
           </Nav>
           <Form className="d-flex">
             <div>

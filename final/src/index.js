@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './views/home';
+
+import Nosotros from './views/nosotros';
 import Navb from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/style.css'
