@@ -10,9 +10,6 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Productos from './views/productos';
 import Footer from './components/footer';
 import Terminos from './components/terminos-y-condiciones';
-<<<<<<< HEAD
-import Politicas from './components/politicas'
-=======
 import Politicas from './components/politicas';
 import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,12 +28,9 @@ root.render(
             <Route path='/productos' element={<Productos/>}/>
             <Route path='/productos/accesorios_y_mantenimiento' element={<AccesoriosMantenimiento/>}/>
             <Route path='/terminos-y-condiciones' element={<Terminos/>}/>
-<<<<<<< HEAD
             <Route path='/Politicas' element={<Politicas/>}/>      
             <Route path='/nosotros' element={<Nosotros/>}/>
-=======
-            <Route path='/politicas-de-privacidad' element={<Politicas/>}/>
->>>>>>> 9d332468ee0fb228a6e477928331d637a7d07d7e
+
         </Routes>
         <Footer/>
     </Router>
