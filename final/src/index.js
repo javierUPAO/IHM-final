@@ -10,7 +10,11 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Productos from './views/productos';
 import Footer from './components/footer';
 import Terminos from './components/terminos-y-condiciones';
+<<<<<<< HEAD
 import Politicas from './components/politicas'
+=======
+import Politicas from './components/politicas';
+>>>>>>> 9d332468ee0fb228a6e477928331d637a7d07d7e
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
@@ -26,8 +30,12 @@ root.render(
             <Route path='/home' element={<Home/>}/>
             <Route path='/productos' element={<Productos/>}/>
             <Route path='/terminos-y-condiciones' element={<Terminos/>}/>
+<<<<<<< HEAD
             <Route path='/Politicas' element={<Politicas/>}/>      
             <Route path='/nosotros' element={<Nosotros/>}/>
+=======
+            <Route path='/politicas-de-privacidad' element={<Politicas/>}/>
+>>>>>>> 9d332468ee0fb228a6e477928331d637a7d07d7e
         </Routes>
         <Footer/>
     </Router>
