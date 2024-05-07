@@ -16,15 +16,17 @@ function Navb() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         
-        <Navbar.Brand href="/home"></Navbar.Brand>
+        <Navbar.Brand href="/home">
+        <img alt='logo de gino' src='https://i.imgur.com/CyaR5fL.png' onClick={() => {handleClick("/home");}} style={{width:'100px',height:'90px'}} ></img>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0 ms-6"
+            className="me-auto my-2 my-lg-0 ms-4"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <img alt='logo de gino' src='https://i.imgur.com/CyaR5fL.png' onClick={() => {handleClick("/home");}} style={{width:'100px',height:'90px'}} ></img>
+          
             <Nav.Link className='Centrar-Altura' href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
             <NavDropdown className='Centrar-Altura' title="Productos" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="../productos/cortinas">  Cortinas </NavDropdown.Item>
