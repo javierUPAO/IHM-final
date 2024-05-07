@@ -31,7 +31,7 @@ function Navb() {
               <NavDropdown.Item href="../productos/persianas">  Persianas </NavDropdown.Item>
               <NavDropdown.Item href="../productos/rollers"> Rollers </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='Centrar-Altura' href="/ubicanos"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
+            <Nav.Link className='Centrar-Altura' href="#"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
             <Nav.Link className='Centrar-Altura' href="/contactanos"> <i data-feather = "phone-call"> </i> Contactanos </Nav.Link>
             <Nav.Link className='Centrar-Altura'href="/nosotros"> <i data-feather = "users"> </i> Nosotros </Nav.Link>
           </Nav>
