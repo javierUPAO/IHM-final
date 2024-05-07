@@ -18,9 +18,9 @@ function Nosotros()
 
              </div>
 
-             <div className="row d-flex justify-content-center">
+             <div className="row d-flex justify-content-center fondo_fixed">
 
-                <div className="col-md-4 text-center">
+                <div className="col-md-4 text-center ">
                             
                         <h2 className="text-light fs-1 mt-6">Mision</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ex eu nunc interdum eleifend. Etiam porta nisi luctus, consequat sem quis, posuere metus. Sed lorem diam, lacinia sit amet lobortis non, tempus sed turpis. Vestibulum aliquam pretium odio sed laoreet. Cras rhoncus hendrerit turpis ut varius. Nulla vel maximus elit, hendrerit dignissim massa. Donec eget velit a eros pellentesque aliquam sit amet quis magna. Vivamus vitae est volutpat, sodales lacus eu, sollicitudin dolor. </p>
@@ -30,7 +30,7 @@ function Nosotros()
              </div>
 
 
-             <div className="row d-flex justify-content-center">
+             <div className="row d-flex justify-content-center ">
 
                 <div className="col-md-4 text-center">
                             
@@ -42,7 +42,7 @@ function Nosotros()
              </div>
 
 
-             <div className="row d-flex justify-content-center">
+             <div className="row d-flex justify-content-center fondo_fixed ">
 
                 <div className="col-md-4 text-center">
                             
