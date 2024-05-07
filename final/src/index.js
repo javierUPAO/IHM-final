@@ -7,6 +7,7 @@ import './styles/style.css'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Productos from './views/productos';
 import Footer from './components/footer';
+import Terminos from './components/terminos-y-condiciones';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
@@ -21,6 +22,7 @@ root.render(
             <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/productos' element={<Productos/>}/>
+            <Route path='/terminos-y-condiciones' element={<Terminos/>}/>
         </Routes>
         <Footer/>
     </Router>
