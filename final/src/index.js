@@ -11,6 +11,7 @@ import Productos from './views/productos';
 import Footer from './components/footer';
 import Terminos from './components/terminos-y-condiciones';
 import Politicas from './components/politicas';
+import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
