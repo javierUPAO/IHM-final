@@ -14,7 +14,7 @@ import Terminos from './components/terminos-y-condiciones';
 import Politicas from './components/politicas'
 =======
 import Politicas from './components/politicas';
->>>>>>> 9d332468ee0fb228a6e477928331d637a7d07d7e
+import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
