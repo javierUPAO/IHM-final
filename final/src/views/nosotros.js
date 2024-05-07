@@ -4,7 +4,7 @@ import "../styles/style.css"
 function Nosotros()
 {
     return (
-        <div className="container-fluid bg-dark">
+        <div className="container-fluid bg-dark text-white">
 
              <div className="row d-flex justify-content-center">
 
@@ -29,6 +29,30 @@ function Nosotros()
                 
              </div>
 
+
+             <div className="row d-flex justify-content-center">
+
+                <div className="col-md-4 text-center">
+                            
+                        <h2 className="text-light fs-1 mt-6">Vision</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ex eu nunc interdum eleifend. Etiam porta nisi luctus, consequat sem quis, posuere metus. Sed lorem diam, lacinia sit amet lobortis non, tempus sed turpis. Vestibulum aliquam pretium odio sed laoreet. Cras rhoncus hendrerit turpis ut varius. Nulla vel maximus elit, hendrerit dignissim massa. Donec eget velit a eros pellentesque aliquam sit amet quis magna. Vivamus vitae est volutpat, sodales lacus eu, sollicitudin dolor. </p>
+                </div>
+
+                
+             </div>
+
+
+             <div className="row d-flex justify-content-center">
+
+                <div className="col-md-4 text-center">
+                            
+                        <h2 className="text-light fs-1 mt-6">Objetivo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ex eu nunc interdum eleifend. Etiam porta nisi luctus, consequat sem quis, posuere metus. Sed lorem diam, lacinia sit amet lobortis non, tempus sed turpis. Vestibulum aliquam pretium odio sed laoreet. Cras rhoncus hendrerit turpis ut varius. Nulla vel maximus elit, hendrerit dignissim massa. Donec eget velit a eros pellentesque aliquam sit amet quis magna. Vivamus vitae est volutpat, sodales lacus eu, sollicitudin dolor. </p>
+                </div>
+
+                
+             </div>
+
              <div className="row d-flex justify-content-center">
 
                 <div className="col-md-5 text-center text-white">
@@ -46,14 +70,36 @@ function Nosotros()
                 </div>
 
                 <div className="col-md-5 text-center text-white">
+                    <br></br>
                         <div className="row">
                             <h2>Contactanos</h2>        
                         </div>       
                         <div className="row">
-                            <p>Nos ubicamos en .....</p>
+
+                            <div className="col-md-6">
+                                <p>Telefono: 
+                                    <br></br>
+                                    123456789
+                                    <br></br>
+                                    123456789
+                                    <br></br>
+                                    123456789</p>
+                                
+                            </div>
+
+                            <div className="col-md-6">
+                                <p>Correo: 
+                                <br></br>
+                                gino@gmail.com</p>
+                            </div>
+                            
                         </div>
-                        <div className="row">
-                            <button type="button" class="btn btn-light">Contactar</button>
+                        
+
+
+                        <div className="row d-flex justify-content-center">
+                            <p>Para más información entrar</p>
+                            <button type="button" class="btn btn-light w-50">Contactar</button>
                         </div> 
                         
 
