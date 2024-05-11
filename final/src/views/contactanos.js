@@ -33,9 +33,10 @@ function Contactanos() {
                         <button type="submit" className="btn btn-primary">Enviar</button>
                     </form>
                 </div>
-                <div className="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="https://images.pexels.com/photos/17840539/pexels-photo-17840539/free-photo-of-madera-vaso-cristal-vidrio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen de Gino's" className="img-fluid"/>
+                <div className="col-md-6 d-flex align-items-start justify-content-center">
+                    <img src="https://images.pexels.com/photos/17840539/pexels-photo-17840539/free-photo-of-madera-vaso-cristal-vidrio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen de Gino's" className="img-fluid" />
                 </div>
+
             </div>
         </div>
     );
