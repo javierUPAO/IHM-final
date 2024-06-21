@@ -1,21 +1,56 @@
 import Button from "react-bootstrap/esm/Button";
 import { Link } from 'react-router-dom';
 import "../styles/style.css"
-function Home()
-{
-   
-   return(
-        <div id="home-container" className="container relleno">
-            <div className="row mb-6">
-                <div className="col-md-6 p-5 ">     
-                    <h1 className="text-light fs-1 mt-6">Decoraciones textiles Gino's</h1>
-                    <p className="text-light fs-6">Sumérgete en nuestro mundo de inspiración y creatividad. ¡Bienvenido a Gino's, donde cada espacio cuenta una historia única de estilo y belleza!</p>
-                    <Link to="../productos">
-                        <Button variant="danger">Productos</Button>
-                    </Link>
+function Home() {
+    return (
+        <div className="container n-p I">
+            <div className="row vh-70 n-m">
+                <div className="col-md-7 inicio">
+                    <div className="row">
+                        <h1>Decoraciones textiles Gino's</h1>
+                    </div>
+                    <div className="row">
+                        <p>
+                            Sumergete en nuestro mundo de inspiración y creatividad. <br />
+                            ¡Bienvenido a Gino-s donde cada espacio cuenta una historia <br />
+                            única de estilo y belleza!
+                        </p>
+                    </div>
                 </div>
-            </div> 
+                <div className="col-md-5 inicio">
+                    <p className="a-m">Imagen</p>
+                </div>
+            </div>
+
+            <div className="row n-m">
+                <div className="row vh-60 n-p n-m">
+                    <div className="col-md-6 inicio n-p">
+                        <div className="row titulo">
+                            <h2>Encuentranos</h2>
+                        </div>
+                        <div className="row img h-st">
+                            <p>imagen</p>
+                        </div>
+                        <div className="row boton-1">
+                            <a href="#">Ubicanos</a>
+                        </div>
+                    </div>
+                    <div className="col-md-6 inicio n-p">
+                        <div className="row titulo">
+                            <h2>Contactanos</h2>
+                        </div>
+                        <div className="row telefonos h-st">
+                            <p>98753447 <br />987646789 <br /> 098646747</p>
+                        </div>
+                        <div className="row boton-1">
+                            <a href="#">Contactanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        );
+    );
 }
+
 export default Home;
+
