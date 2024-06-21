@@ -3,31 +3,27 @@ import "../styles/style.css"
 function Footer ()
 {
     return (
-        <div className="container-fluid bg-dark ">
-            <div className="row text-center bg-terciary p-2">
-                <div className="col-md-4 ">
-                    <a href="https://www.facebook.com/" className="text-light text-decoration-none" target="blank">Facebook</a>
-                </div>
-                <div className="row p-3"><p className="text-light">© IHM-2024 All Rights Reserved.</p></div>
-                <div className="row text-center p-3">
-                    <div className="col-md-6">
-                        <Link to="terminos-y-condiciones" className="text-light text-decoration-none " target="_blank">Terminos y condciones</Link>
-                    </div>
-                    <div className="col-md-6">
-                        <Link to="politicas"className="text-light text-decoration-none" target="_blank" >Politicas de privacidad</Link>
-                    </div>
-                </div>
-            </div>
-            <div className="row p-3"><p className="text-light">© IHM-2024 All Rights Reserved.</p></div>
-            <div className="row text-center p-3">
-                <div className="col-md-6">
-                    <Link to="/terminos-y-condiciones" className="text-light text-decoration-none " target="_blank">Terminos y condciones</Link>
-                </div>
-                <div className="col-md-6">
-                    <Link to="/politicas-de-privacidad" className="text-light text-decoration-none" target="_blank" >Politicas de privacidad</Link>
-                </div>
-            </div>
+        <div className="row bg-dark n-m text-white">
+    <div className="col-md-3 inicio">
+        <p>@IHM - 2024 all rights reserved</p>
+    </div>
+    <div className="col-md-6 inicio">
+        <div className="row">
+            <p>Decoraciones Textiles Gino's</p>
         </div>
+        <div className="row">
+
+        </div>
+    </div>
+    <div className="col-md-3 inicio">
+        <div className="row">
+            <p>Politicas y Privacidad</p>
+        </div>
+        <div className="row">
+            <p>Términos y Condiciones</p>
+        </div>
+    </div>
+</div>
     );
 }
 export default Footer;
