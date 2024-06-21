@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './views/home';
-
 import Nosotros from './views/nosotros';
 import Contactanos from './views/contactanos';
 import Navb from './components/navbar';
@@ -13,6 +12,8 @@ import Footer from './components/footer';
 import Terminos from './components/terminos-y-condiciones';
 import Politicas from './components/politicas';
 import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
+/* Importamos el faq.js */
+import FAQ from './views/faq';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
@@ -32,7 +33,7 @@ root.render(
             <Route path='/Politicas' element={<Politicas/>}/>      
             <Route path='/nosotros' element={<Nosotros/>}/>
             <Route path='/contactanos' element={<Contactanos/>}/>
-
+            <Route path='/faq' element={<FAQ/>}/>
         </Routes>
         <Footer/>
     </Router>
