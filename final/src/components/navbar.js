@@ -15,12 +15,12 @@ function Navb() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary n-p">
       <Container className="bg-nav w-100">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className="boton">Inicio</Nav.Link>
-            <Nav.Link href="#link" className="boton">Nosotros</Nav.Link>
+            <Nav.Link href="/nosotros" className="boton">Nosotros</Nav.Link>
             <Nav.Link href="#link" className="boton">FAQ</Nav.Link>
           </Nav>
         </Navbar.Collapse>
