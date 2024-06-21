@@ -1,144 +1,107 @@
-
-body
-{
-    background-image: url("https://i.imgur.com/qOvNuCG.jpeg");
-    background-attachment: fixed;
-    padding: 0;
-    margin: 0;
+:root {
+    --nav: #904e55;
+    --btn: #f2efe9;
 }
-.fondo_fixed
-{
-    background-image: url("https://i.imgur.com/qOvNuCG.jpeg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-.Centrar-Altura
-{
-    line-height: 4;
-    text-indent: 25px;
-}
-.ms-6{
-        margin-left: 120px;
-}
-.mt-6{
-    margin-top: 120px;
-}
-.mb-6{
-    margin-bottom: 120px;
-}
-.bg-terciary
-{
-    background-color: #292929;
+/* Herramientas */
+.bg-nav {
+    background-color: var(--nav);
 }
 
-/*Titulo de la pestaña politicas de privacidad*/
-.titulo{
-    color: rgba(220, 1, 1, 0.668);
-    padding: 5px;
-    font-size: 25px;
+.n-p {
+    padding: 0!important;
 }
-/*sus subtitulos*/
-.politicas-div h2{
-    color: var(--secondary-color);
-    color: royalblue;
-    font-size: 18px;
-    margin: 5px;
+
+.n-m {
+    margin: 0!important;
 }
-/*Es del parrafo grande*/
-.parrafo-grande{
-    color: #fff;
-    text-shadow: 1px 1px 0px rgb(88, 88, 88);
-    font-size: 15px;
-    padding: 15px;
+.a-m{
+    margin: auto!important;
+}
+.vh-40{
+    height: 40vh;
+}
+
+.vh-60{
+    height: 60vh;
+}
+.vh-70{
+    height: 70vh;
+}
+.vh-80{
+    height: 80vh;
+}
+.w-100{
+    width: 100%!important;
+    max-width: 100%!important;
+}
+.w-100v{
+    width: 100vw;
+}
+
+.h-st{
+    height: 100px;
+}
+
+/* Este es el diseño mobil */
+.boton{
+    background-color: transparent;
+    min-width: 100px;
     
 }
-/*Este es del div para colocar el parrafo al costado*/
-.letra-costado{
+
+.nav-item a {
     display: flex;
     justify-content: center;
 }
-/*Este es de la imagen de seguridad*/
-.imagen-securiti{
-    width: 300px;
-    height: 300px;
-    margin-left: 10px;
-}
-/*Este son de los parrafos del divv*/
-.politicas-div p {
-    font-size: 15px;
-}
-/*header-nosotros*/
-.header-nosotros
-{
-    color: #fff; 
-    font-weight: bold;
-  
-}
-.header-nosotros h2{
-    margin: 20px;
-    text-decoration: underline;
+.inicio{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    text-align: center;
 }
 
-.parrafo-privacidad{
-    font-size: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 0px rgb(88, 88, 88);
-    padding: 20px;
-}
-
-
-.titulo{
-    color: rgba(220, 1, 1, 0.668);
-    padding: 5px;
-    font-size: 25px;
-}
-
-.politicas-div h2{
-    color: var(--secondary-color);
-    color: royalblue;
-    font-size: 18px;
-    margin: 5px;
-}
-
-.parrafo-grande{
-    color: #fff;
-    text-shadow: 1px 1px 0px rgb(88, 88, 88);
-    font-size: 15px;
-    padding: 15px;
+.inicio2{
+    display: flex!important;
     
+    align-items: center!important;
+    flex-direction: column!important;
+    text-align: center;
 }
 
-.letra-costado{
-    display: flex;
-    justify-content: center;
+.boton-1{
+    max-width: 120px;
+    background-color: var(--nav);
+    border-radius: 10px;
 }
+.boton-1 a{
+    text-decoration: none;
+    color: #f2efe9;
+}
+.row{
+    width: 100%;
+}
+/* Este es el diseño en escritorio */
+@media (min-width: 992px) {
+    .boton{
+        background-color: var(--btn)!important;
+        border: 1.5px solid black!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.imagen-securiti{
-    width: 300px;
-    height: 300px;
-    margin-left: 10px;
-}
+    .navbar-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    
+    .inicio{
+        text-align: center;
+    }
 
-.politicas-div p {
-    font-size: 15px;
-}
+    
 
-.header-nosotros
-{
-    color: #fff; 
-    font-weight: bold;
-  
-}
-.header-nosotros h2{
-    margin: 20px;
-    text-decoration: underline;
-}
-
-.parrafo-privacidad{
-    font-size: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 0px rgb(88, 88, 88);
-    padding: 20px;
 }

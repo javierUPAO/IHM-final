@@ -13,43 +13,16 @@ function Navb() {
   const handleClick = (slug) => {
       navigate(slug);}
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
-        
-        <Navbar.Brand href="/home">
-        <img alt='logo de gino' src='https://i.imgur.com/CyaR5fL.png' onClick={() => {handleClick("/home");}} style={{width:'100px',height:'90px'}} ></img>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0 ms-4"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-          
-            <Nav.Link className='Centrar-Altura' href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
-            <NavDropdown className='Centrar-Altura' title="Productos" id="navbarScrollingDropdown" >
-              <NavDropdown.Item href="../productos/cortinas">  Cortinas </NavDropdown.Item>
-              <NavDropdown.Item href="../productos/accesorios_y_mantenimiento">  Accesorios y Mantenimiento </NavDropdown.Item>
-              <NavDropdown.Item href="../productos/rollers"> Rollers </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link className='Centrar-Altura' href="#"><i data-feather = "map-pin"> </i>  Ubicanos </Nav.Link>
-            <Nav.Link className='Centrar-Altura' href="/contactanos"> <i data-feather = "phone-call"> </i> Contactanos </Nav.Link>
-            <Nav.Link className='Centrar-Altura'href="/nosotros"> <i data-feather = "users"> </i> Nosotros </Nav.Link>
+    <Navbar expand="lg" className="bg-body-tertiary n-p">
+      <Container className="bg-nav w-100">
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#link">Nosotros</Nav.Link>
+            <Nav.Link href="#link">FAQ</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <div>
-                <i data-feather = "search"></i>
-            </div>
-
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Buscar</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
