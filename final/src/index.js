@@ -14,6 +14,7 @@ import Politicas from './components/politicas';
 import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
 /* Importamos el faq.js */
 import FAQ from './views/faq';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
 setTimeout( () => {
