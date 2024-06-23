@@ -34,47 +34,6 @@ body {
     background-color: #292929;
 }
 
-/*Titulo de la pestaña politicas de privacidad*/
-.titulo {
-    color: rgba(220, 1, 1, 0.668);
-    padding: 5px;
-    font-size: 25px;
-}
-
-/*sus subtitulos*/
-.politicas-div h2 {
-    color: var(--secondary-color);
-    color: royalblue;
-    font-size: 18px;
-    margin: 5px;
-}
-
-/*Es del parrafo grande*/
-.parrafo-grande {
-    color: #fff;
-    text-shadow: 1px 1px 0px rgb(88, 88, 88);
-    font-size: 15px;
-    padding: 15px;
-
-}
-
-/*Este es del div para colocar el parrafo al costado*/
-.letra-costado {
-    display: flex;
-    justify-content: center;
-}
-
-/*Este es de la imagen de seguridad*/
-.imagen-securiti {
-    width: 300px;
-    height: 300px;
-    margin-left: 10px;
-}
-
-/*Este son de los parrafos del divv*/
-.politicas-div p {
-    font-size: 15px;
-}
 
 /*header-nosotros*/
 .header-nosotros {
@@ -170,65 +129,4 @@ body {
     /* Mantenga la misma altura que el ancho para un ícono cuadrado */
     color: #f2efe9;
 }
-
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #f1f1f1;
-}
-.card{
-    position: relative;
-    width: 300px;
-    height: 350px;
-    background-color: ;
-}
-
-.card .face{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
-
-  transition: .5s;
-}
-
-
-.card .front{
-    transform:perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-}
-
-.card .front .Card.Img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .back{
-    transform: perspective(600px) rotateY(180deg); 
-    background: rgb(3, 35, 54); 
-    padding: 15px; 
-    color: #fff;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-}
-
-.card:hover .front {
-    transform: perspective(600px) rotateY(180deg) ;
-}
-
-.card:hover .back {
-    transform: perspective(600px) rotateY( 360deg) ;
-} */
 

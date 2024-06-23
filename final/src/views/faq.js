@@ -7,31 +7,31 @@ function FAQ() {
     <div className="container">
       <div className="row justify-content-center">
         {/*  Cards  */}
-         <h2 className='d-flex justify-content-center  text-light py-4'>Guias de ayuda</h2>
+         <h1  data-aos="zoom-in" className='d-flex justify-content-center  text-light py-4'>Guias de ayuda</h1>
         <div className='all d-flex justify-content-center '>  
           <Card  data-aos="zoom-in" className='card01 mx-3 '>
             <Card.Body>
             <div data-feather="user" className="icon"></div>
-              <div className='boton d-flex justify-content-center'> <Button variant="danger">Contactar Soporte</Button></div>
+              <div data-aos="zoom-in" className='boton d-flex justify-content-center'> <Button variant="danger">Contactar Soporte</Button></div>
             </Card.Body>
           </Card>
           <Card  data-aos="zoom-in" className="card02 mx-3">
             <Card.Body>
               <i  className="icon" data-feather="package"></i>
-              <div className='boton d-flex justify-content-center'> <Button variant="danger">Solicitar un pedido</Button></div>
+              <div data-aos="zoom-in" className='boton d-flex justify-content-center'> <Button variant="danger">Solicitar un pedido</Button></div>
             </Card.Body>
           </Card>
           <Card  data-aos="zoom-in" className="card03 mx-3">
             <Card.Body >
               <i className="icon" data-feather="dollar-sign"></i>
-              <div className='boton d-flex justify-content-center'> <Button variant="danger">Generar Presupuesto</Button></div>
+              <div data-aos="zoom-in" className='boton d-flex justify-content-center'> <Button variant="danger">Generar Presupuesto</Button></div>
             </Card.Body>
           </Card>
         </div>
         <div className="col-md-8">
           {/* Acordion */}
-          <Accordion className="py-5">
-            <h1 className="my-5 text-center text-white">Preguntas Frecuentes</h1>
+          <Accordion data-aos="zoom-in" className="py-5">
+            <h1 data-aos="zoom-in" className="my-5 text-center text-white">Preguntas Frecuentes</h1>
             <Accordion.Item eventKey="0">
               <Accordion.Header>1.Tiene garantia?</Accordion.Header>
               <Accordion.Body>
