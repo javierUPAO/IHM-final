@@ -11,7 +11,19 @@ function Footer ()
         <div className="row">
             <p>Decoraciones Textiles Gino's</p>
         </div>
-        <div className="row">
+        <div className="row d-flex justify-content-center">
+            <div className="col-md-2">
+                <i data-feather="facebook"></i>
+            </div>
+            <div className="col-md-2">
+                <i data-feather="instagram"></i>
+            </div>
+            <div className="col-md-2">
+                <i data-feather="twitter"></i>
+            </div>
+        
+        
+        
 
         </div>
     </div>
