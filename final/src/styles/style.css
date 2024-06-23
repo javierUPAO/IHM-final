@@ -1,110 +1,134 @@
 :root {
-    --nav: #904e55;
+    --link: #904e55;
     --btn: #f2efe9;
+    --foot: #f2efe9;
+}
+.z1{
+    z-index: 1;
+}
+.img-zoom {
+    transition: transform 0.8s ease; /* Suaviza la transición */
+  }
+  
+  .img-zoom:hover {
+    transform: scale(1.12); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    cursor: pointer;
+    
+  }
+  .c2 p:hover{
+    display: none;
+  }
+.z2{
+    z-index: 2;
+
+}
+.p20{
+    padding: 20px;
+}
+
+.mxh-70{
+    max-height: 70vh;
 }
 /* Herramientas */
-.bg-nav {
-    background-color: var(--nav);
-}
-
-.n-p {
-    padding: 0!important;
-}
-
-.n-m {
-    margin: 0!important;
-}
-.a-m{
-    margin: auto!important;
-}
-.vh-40{
-    height: 40vh;
-}
-
-.vh-60{
-    height: 60vh;
-}
-.vh-70{
-    height: 70vh;
-}
-.vh-80{
-    height: 80vh;
-}
-.w-100{
-    width: 100%!important;
-    max-width: 100%!important;
-}
-.w-100v{
-    width: 100vw;
-}
-
-.h-st{
-    height: 100px;
-}
-
-/* Este es el diseño mobil */
-.boton{
-    background-color: transparent;
-    min-width: 100px;
+.c1 {
+    overflow: hidden; /* Esto previene que el contenido sobresalga */
     
-}
-
-.nav-item a {
+  }
+.container-1{
     display: flex;
     justify-content: center;
-}
-.inicio{
-    display: flex!important;
-    align-items: center!important;
-    justify-content: center!important;
-    flex-direction: column!important;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
+.c1 img {
+    transition: transform 0.5s ease; /* Ajusta la duración y el tipo de transición según prefieras */
+  }
+  
+  .c1 img:hover {
+    transform: scale(1.1); /* Ajusta el factor de escala según el nivel de zoom deseado */
+  }
 
-.inicio2{
-    display: flex!important;
+.titulo{
+    color: var(--foot);
+}
+.link:hover {
+    color: var(--link)!important;
+}
+.container-1:hover{
+    color: var(--link)!important;
     
-    align-items: center!important;
-    flex-direction: column!important;
-    text-align: center;
+}
+.container-1{
+    margin-top: 30px;
 }
 
-.boton-1{
-    max-width: 120px;
-    background-color: var(--nav);
-    border-radius: 10px;
+.c1 img{
+    max-height: 300px;
 }
-.boton-1 a{
-    text-decoration: none;
-    color: #f2efe9;
-}
-.row{
-    width: 100%;
-}
-/* Este es el diseño en escritorio */
-@media (min-width: 992px) {
-    .boton{
-        background-color: var(--btn)!important;
-        border: 1.5px solid black!important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .navbar-nav{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        padding: 10px 0;
-    }
+.overlay{
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+.overlay span{
+    color: white;
+
+}
+.cp{
+    background-color: #F2EFE9;
+    padding: 20px;
+}
+
+.scroll{
+    max-height: 400px;
+    display: flex;
+    overflow-x: auto;
+    margin: 20px;
+    max-width: 980px ;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+
+.scroll .item{
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.c2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+@media (min-width: 985px) {
     
-    .inicio{
-        text-align: center;
-    }
-
-    .navbar-nav a {
-        display: flex;
-        justify-content: center;
-    }
+    .hover-div {
+        position: relative;
+      }
+      .hover-div{
+        background-color: #f2efe9;
+      }
+      
+      .hover-div .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        transition: background-color 0.5s ease; /* Transición suave para el efecto */
+      }
+      
+      .hover-div:hover .overlay {
+        background-color: rgba(0, 0, 0, 0.5); /* Oscurece al hacer hover */
+      }
 
 }
