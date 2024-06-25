@@ -14,7 +14,7 @@ const scrollToTop = () => {
       );
     
     return (
-    <div className="container-fluid text-center">
+    <div className="container-fluid text-center n-p">
 
         <div className="row bg-dark n-m text-white p-3">
     <div className="col-md-3 inicio">
@@ -49,10 +49,10 @@ const scrollToTop = () => {
     </div>
     <div className="col-md-3 inicio">
         <div className="row">
-            <p>Politicas y Privacidad</p>
+            <a className="text-decoration-none text-light" href="/Politicas">Politicas y Privacidad</a>
         </div>
         <div className="row">
-            <p>Términos y Condiciones</p>
+            <a className="text-decoration-none text-light" href="/terminos-y-condiciones">Términos y Condiciones</a>
         </div>
     </div>
 </div>

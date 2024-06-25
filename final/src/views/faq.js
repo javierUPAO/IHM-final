@@ -2,13 +2,12 @@ import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import "../styles/style.css";
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function FAQ() {
   return (
-    <Container>
+    <div className='container-fluid n-m imagen'>
       <Row className="justify-content-center">
         {/*  Cards  */}
         <h1 data-aos="zoom-in" className='d-flex justify-content-center text-light py-4'>Guias de ayuda</h1>
@@ -82,7 +81,7 @@ function FAQ() {
           </Accordion>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 
