@@ -114,7 +114,6 @@ body {
 
 .card {
     background-color: #564e58 !important;
-    /* Aumente el valor para aumentar el tamaño */
     width: 250px;
     height: 225px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -130,3 +129,31 @@ body {
     color: #f2efe9;
 }
 
+.card01, .card02, .card03 {
+    flex: 1 1 250px; 
+    max-width: 250px; 
+  }
+
+  .boton {
+    width: 100%; 
+  }
+  
+  .boton button {
+    width: 100%; 
+    white-space: normal;
+  }
+  
+  @media (max-width: 576px) {
+    .card01, .card02, .card03 {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .icon {
+    transition: transform 0.3s ease; /* Suaviza la transición */
+  }
+  
+  .icon:hover {
+    transform: scale(1.06); /* Aumenta el tamaño del icono en un 20% */
+  }
+  
