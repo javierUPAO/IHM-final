@@ -13,7 +13,6 @@ import Productos from './views/productos';
 import Footer from './components/footer';
 import Terminos from './components/terminos-y-condiciones';
 import Politicas from './components/politicas';
-import AccesoriosMantenimiento from './components/accesorios_y_mantenimientos';
 import Wasap from './components/wasapbutton';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
@@ -30,7 +29,6 @@ root.render(
             <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/productos' element={<Productos/>}/>
-            <Route path='/productos/accesorios_y_mantenimiento' element={<AccesoriosMantenimiento/>}/>
             <Route path='/terminos-y-condiciones' element={<Terminos/>}/>
             <Route path='/Politicas' element={<Politicas/>}/>      
             <Route path='/nosotros' element={<Nosotros/>}/>

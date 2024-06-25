@@ -14,10 +14,13 @@ function Nosotros()
             <p class="text-center nosotros_desc">En Decoraciones Textiles Gino's nos apasiona transformar espacios en experiencias únicas, donde cada detalle refleje tu estilo y personalidad.  Nuestro compromiso va más allá de ofrecerte productos de calidad; te brindamos un servicio personalizado, guiándote en cada paso para crear el ambiente perfecto que hará de tu hogar o negocio un lugar excepcional.  Sumergete en nuestro mundo de inspiración y creatividad.</p>
             {/* MISION */}
             <div className="row text-center mision ">
-                <div className="col-md-6">
-                    <div className="row ">
+                <div className="col-md-6 centrar">
+                    
+                    <div className="row">
+
                         <h2>Misión</h2>
                         <p>En Decoraciones Textiles Gino's, nuestra misión es inspirar y transformar hogares a través de la belleza y funcionalidad. Nos esforzamos por ser líderes en el mercado, ofreciendo productos de la más alta calidad y un servicio excepcional que supere las expectativas de nuestros clientes. Creemos en la creación de espacios que no solo sean visualmente atractivos, sino que también mejoren la calidad de vida de quienes los habitan.</p>
+                        
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -25,7 +28,7 @@ function Nosotros()
                 </div>
             </div>
             {/* VISION */}
-            <div className="row vision text-center">
+            <div className="row vision text-center centrar">
                 <div className="col-md-6">
                 <img src="https://www.liderempresarial.com/wp-content/uploads/2018/10/meeting.jpeg"></img>
                 </div>

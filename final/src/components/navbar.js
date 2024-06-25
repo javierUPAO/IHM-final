@@ -53,7 +53,7 @@ function Navb() {
               </Nav.Link>  
             </OverlayTrigger>
             <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipFaq} >  
-              <Nav.Link href="#link" className="link">
+              <Nav.Link href="/Faq" className="link">
                 <i data-feather = "help-circle"></i> FAQ
               </Nav.Link>
             </OverlayTrigger> 

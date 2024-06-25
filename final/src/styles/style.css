@@ -3,7 +3,11 @@
     --btn: #f2efe9;
     --foot: #f2efe9;
 }
-
+.centrar
+{
+    align-items: center;
+    display: grid;
+}
 .z1{
     z-index: 1;
 }
