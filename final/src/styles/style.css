@@ -166,3 +166,53 @@
     background-color: white;
     color  : green;
 }
+.nosotros{
+    background-image: url("https://images.pexels.com/photos/462197/pexels-photo-462197.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 9% 0;
+}
+
+.nosotros_h2{
+  font-family: "Georgia", serif;
+  color: #fd5b5b; 
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nosotros_desc{
+  font-family: "Georgia", serif; 
+  line-height: 1.6;
+  padding: 2rem 0; 
+}
+
+
+.mision{
+ font-family: "Georgia", serif;
+ background-color: #faf2e9;
+ padding: 3rem 0;
+}
+
+.mision p {
+  font-size: 1.1rem;
+}
+
+.mision img {
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}
+
+.vision{
+  font-family: "Georgia", serif;
+  padding: 3rem 0;  
+}
+
+.vision p {
+    font-size: 1.1rem;
+}
+
+.vision img {
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}
