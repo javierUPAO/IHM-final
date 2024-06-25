@@ -1,8 +1,9 @@
 :root {
-    --link: #904e55;
+    --link: #dc3547;
     --btn: #f2efe9;
     --foot: #f2efe9;
 }
+
 .z1{
     z-index: 1;
 }
@@ -70,7 +71,7 @@
 .overlay{
     height: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.9;
 
 }
 
@@ -78,6 +79,7 @@
     color: white;
 
 }
+
 .cp{
     background-color: #F2EFE9;
     padding: 20px;
@@ -109,7 +111,15 @@
 
 
 @media (min-width: 985px) {
-    
+
+    .overlay span{
+        color: black;
+        font-weight: bold;
+    }
+
+ .overlay:hover span{
+            color: white;}
+
     .hover-div {
         position: relative;
       }
@@ -126,9 +136,32 @@
         background-color: transparent;
         transition: background-color 0.5s ease; /* Transición suave para el efecto */
       }
-      
+
+
       .hover-div:hover .overlay {
-        background-color: rgba(0, 0, 0, 0.5); /* Oscurece al hacer hover */
+        background-color: rgba(0, 0, 0, 1); /* Oscurece al hacer hover */
       }
 
+
+}
+.float-buton
+{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 33px;
+    right: 33px;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    z-index:100;
+}
+.float-buton:hover
+{
+    background-color: white;
+    color  : green;
 }

@@ -1,5 +1,3 @@
-import Carrusel from "../components/carrusel";
-import { Link } from 'react-router-dom';
 import "../styles/style.css"
 function Nosotros()
 {

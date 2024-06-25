@@ -1,6 +1,7 @@
-import Button from "react-bootstrap/esm/Button";
-import { Link } from 'react-router-dom';
+import Carrusel from "../components/carrusel";
 import "../styles/style.css"
+import Trabajos from "../components/Nuestros Trabajos"
+import Categoria from "../components/categorias"
 function Home() {
     return (
         <div>
@@ -11,7 +12,7 @@ function Home() {
                         <div className="container-1">
 
                             <div className="row c1">
-                                <img className="img-fluid" src="https://images.pexels.com/photos/813691/pexels-photo-813691.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Responsive Image"></img>
+                                <img className="img-fluid" src="https://images.pexels.com/photos/813691/pexels-photo-813691.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Responsiveimg"></img>
                             </div>
                             <div className="row">
                                 <p>Direccion:  Av. Húsares de Junín 801(La Libertad, Trujillo)</p>
@@ -24,7 +25,7 @@ function Home() {
                         <div className="container-1">
 
                             <div className="row c1">
-                                <img className="img-fluid" src="https://i.ibb.co/dPQvGL9/Contacto.png" alt="Responsive Image"></img>
+                                <img className="img-fluid" src="https://i.ibb.co/dPQvGL9/Contacto.png" alt="Responsive Img"></img>
                             </div>
                             <div className="row">
                                 <p>Contacto:949314078 </p>

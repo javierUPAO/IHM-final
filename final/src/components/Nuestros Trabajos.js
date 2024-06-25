@@ -1,5 +1,3 @@
-import { ListGroupItem } from "react-bootstrap";
-
 function Trabajos() {
   return (
     <div>
