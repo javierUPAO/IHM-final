@@ -88,9 +88,10 @@
 .scroll{
     max-height: 400px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden; /* Ocultar barra de desplazamiento */
     margin: 20px;
-    max-width: 980px ;
+    max-width: 980px;
+    position: relative;
 }
 .scroll::-webkit-scrollbar {
     display: none;
