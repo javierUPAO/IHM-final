@@ -1,4 +1,5 @@
 import Carrusel from "../components/carrusel";
+import Catalogo from "../components/catalogo";
 function Productos()
 {
     return (
@@ -8,7 +9,7 @@ function Productos()
                 <Carrusel/>
             </div>
         </div>
-
+        <Catalogo/>
 
 
 
