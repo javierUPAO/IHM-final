@@ -1,222 +1,159 @@
-:root {
-    --link: #dc3547;
-    --btn: #f2efe9;
-    --foot: #f2efe9;
-}
-.centrar
-{
-    align-items: center;
-    display: grid;
-}
-.z1{
-    z-index: 1;
-}
-.img-zoom {
-    transition: transform 0.8s ease; /* Suaviza la transición */
-  }
-  
-  .img-zoom:hover {
-    transform: scale(1.12); /* Aumenta el tamaño de la imagen al pasar el mouse */
-    cursor: pointer;
-    
-  }
-  .c2 p:hover{
-    display: none;
-  }
-.z2{
-    z-index: 2;
-
-}
-.p20{
-    padding: 20px;
+body {
+    background-image: url("https://i.imgur.com/qOvNuCG.jpeg");
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
 }
 
-.mxh-70{
-    max-height: 70vh;
-}
-/* Herramientas */
-.c1 {
-    overflow: hidden; /* Esto previene que el contenido sobresalga */
-    
-  }
-.container-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-.c1 img {
-    transition: transform 0.5s ease; /* Ajusta la duración y el tipo de transición según prefieras */
-  }
-  
-  .c1 img:hover {
-    transform: scale(1.1); /* Ajusta el factor de escala según el nivel de zoom deseado */
-  }
-
-.titulo{
-    color: var(--foot);
-}
-.link:hover {
-    color: var(--link)!important;
-}
-.container-1:hover{
-    color: var(--link)!important;
-    
-}
-.container-1{
-    margin-top: 30px;
-}
-
-.c1 img{
-    max-height: 300px;
-}
-
-.overlay{
-    height: 100%;
-    background-color: black;
-    opacity: 0.9;
-
-}
-
-.overlay span{
-    color: white;
-
-}
-
-.cp{
-    background-color: #F2EFE9;
-    padding: 20px;
-}
-
-.scroll{
-    max-height: 400px;
-    display: flex;
-    overflow-x: hidden; /* Ocultar barra de desplazamiento */
-    margin: 20px;
-    max-width: 980px;
-    position: relative;
-}
-.scroll::-webkit-scrollbar {
-    display: none;
-    width: 0px;
-}
-
-.scroll .item{
-    min-width: 200px;
-    margin-right: 20px;
-}
-
-.c2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-
-@media (min-width: 985px) {
-
-    .overlay span{
-        color: black;
-        font-weight: bold;
-    }
-
- .overlay:hover span{
-            color: white;}
-
-    .hover-div {
-        position: relative;
-      }
-      .hover-div{
-        background-color: #f2efe9;
-      }
-      
-      .hover-div .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: transparent;
-        transition: background-color 0.5s ease; /* Transición suave para el efecto */
-      }
-
-
-      .hover-div:hover .overlay {
-        background-color: rgba(0, 0, 0, 1); /* Oscurece al hacer hover */
-      }
-
-
-}
-.float-buton
-{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 33px;
-    right: 33px;
-    background-color: green;
-    border-radius: 30px;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 1px 10px rgba(0,0,0,0.5);
-    z-index:100;
-}
-.float-buton:hover
-{
-    background-color: white;
-    color  : green;
-}
-.nosotros{
-    background-image: url("https://images.pexels.com/photos/462197/pexels-photo-462197.jpeg");
-    background-size: cover;
+.fondo_fixed {
+    background-image: url("https://i.imgur.com/qOvNuCG.jpeg");
+    background-attachment: fixed;
     background-position: center;
-    padding: 9% 0;
+    background-repeat: no-repeat;
+
 }
 
-.nosotros_h2{
-  font-family: "Georgia", serif;
-  color: #fd5b5b; 
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.Centrar-Altura {
+    line-height: 4;
+    text-indent: 25px;
 }
 
-.nosotros_desc{
-  font-family: "Georgia", serif; 
-  line-height: 1.6;
-  padding: 2rem 0; 
+.ms-6 {
+    margin-left: 120px;
+}
+
+.mt-6 {
+    margin-top: 120px;
+}
+
+.mb-6 {
+    margin-bottom: 120px;
+}
+
+.bg-terciary {
+    background-color: #292929;
 }
 
 
-.mision{
- font-family: "Georgia", serif;
- background-color: #faf2e9;
- padding: 3rem 0;
+/*header-nosotros*/
+.header-nosotros {
+    color: #fff;
+    font-weight: bold;
+
 }
 
-.mision p {
-  font-size: 1.1rem;
+.header-nosotros h2 {
+    margin: 20px;
+    text-decoration: underline;
 }
 
-.mision img {
-    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
-    height: auto;  /* Mantiene la proporción de la imagen */
+.parrafo-privacidad {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(88, 88, 88);
+    padding: 20px;
 }
 
-.vision{
-  font-family: "Georgia", serif;
-  padding: 3rem 0;  
+
+.titulo {
+    color: rgba(220, 1, 1, 0.668);
+    padding: 5px;
+    font-size: 25px;
 }
 
-.vision p {
-    font-size: 1.1rem;
+.politicas-div h2 {
+    color: var(--secondary-color);
+    color: royalblue;
+    font-size: 18px;
+    margin: 5px;
 }
 
-.vision img {
-    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
-    height: auto;  /* Mantiene la proporción de la imagen */
+.parrafo-grande {
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(88, 88, 88);
+    font-size: 15px;
+    padding: 15px;
+
 }
+
+.letra-costado {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-securiti {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.politicas-div p {
+    font-size: 15px;
+}
+
+.header-nosotros {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.header-nosotros h2 {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.parrafo-privacidad {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(88, 88, 88);
+    padding: 20px;
+}
+
+/* FAQ */
+/* TARJETAS */
+
+.card {
+    background-color: #564e58 !important;
+    width: 250px;
+    height: 225px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Aumente el valor para aumentar el tamaño */
+    height: auto;
+    /* Mantenga la misma altura que el ancho para un ícono cuadrado */
+    color: #f2efe9;
+}
+
+.card01, .card02, .card03 {
+    flex: 1 1 250px; 
+    max-width: 250px; 
+  }
+
+  .boton {
+    width: 100%; 
+  }
+  
+  .boton button {
+    width: 100%; 
+    white-space: normal;
+  }
+  
+  @media (max-width: 576px) {
+    .card01, .card02, .card03 {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .icon {
+    transition: transform 0.3s ease; /* Suaviza la transición */
+  }
+  
+  .icon:hover {
+    transform: scale(1.06); /* Aumenta el tamaño del icono en un 20% */
+  }
+  
