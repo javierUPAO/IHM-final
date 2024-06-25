@@ -1,38 +1,110 @@
 [
-    { "url" : "https://decortextilginos.files.wordpress.com/2022/08/whatsapp-image-2022-08-17-at-1.49.42-pm.jpeg?w=2500&h=",
-       "Nombre" : "Cortina",
-       "Tipo": "Cortina",
-       "Color": "Blanco"
-    },
-    { "url" : "https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.40.13-pm-1.jpeg?w=1024",
-    "Nombre" : "Cortina",
-      "Tipo": "Cortina",
-      "Color": "Blanco"
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.41.59-pm-1.jpeg?w=768",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"tubo",
+        "color":"claro"
     },
     {
-        "url" : "https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.42-pm-1.jpeg?w=576",
-        "Nombre" : "Rollers",
-        "Tipo": "Rollers",
-         "Color": "Blanco"
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.41.59-pm-2.jpeg?w=768",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"tubo",
+        "color":"oscuro"
     },
     {
-        "url" : "https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.39-pm.jpeg?w=576",
-        "Nombre" : "Rollers",
-        "Tipo": "Rollers",
-        "Color": "Blanco"
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.40.04-pm.jpeg",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"tubo",
+        "color":"claro"
     },
-    {
-        "url" : "https://decortextilginos.files.wordpress.com/2022/08/whatsapp-image-2022-08-17-at-2.40.07-pm-1.jpeg?w=2500&h=",
-         "Nombre" : "Cortinas",
-                 "Tipo": "Rollers",
-         "Color": "Blanco"
-    },
-    {
-        "url" : "https://decortextilginos.files.wordpress.com/2022/08/whatsapp-image-2022-08-17-at-2.40.05-pm-2.jpeg?w=2500&h=",
-         "Nombre" : "Cortinas",
-                 "Tipo": "Rollers",
-         "Color": "Blanco"
-    }
 
+
+
+
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.30.01-pm-1.jpeg?w=768",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"riel",
+        "color":"oscuro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.30.04-pm-1.jpeg?w=768",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"riel",
+        "color":"claro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.30.09-pm.jpeg?w=768",
+        "nombre":"cortina",
+        "categoria":"cortina",
+        "sub-categoria":"riel",
+        "color":"claro"
+    },
+
+
+
+
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.41-pm.jpeg",
+        "nombre":"rollers",
+        "categoria":"rollers",
+        "sub-categoria":"",
+        "color":"claro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.42-pm-1.jpeg",
+        "nombre":"rollers",
+        "categoria":"rollers",
+        "sub-categoria":"",
+        "color":"claro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.39-pm.jpeg",
+        "nombre":"rollers",
+        "categoria":"rollers",
+        "sub-categoria":"",
+        "color":"oscuro"
+    },
+
+
+
+
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.38-pm.jpeg",
+        "nombre":"persiana",
+        "categoria":"persiana",
+        "sub-categoria":"horizontal",
+        "color":"claro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.40-pm.jpeg",
+        "nombre":"persiana",
+        "categoria":"persiana",
+        "sub-categoria":"vertical",
+        "color":"claro"
+    },
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.42-pm.jpeg",
+        "nombre":"persiana",
+        "categoria":"persiana",
+        "sub-categoria":"vertical",
+        "color":"claro"
+    },
+
+
+
+
+    {
+        "url":"https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.41-pm-2.jpeg?w=1024",
+        "nombre":"persiana",
+        "categoria":"persiana",
+        "sub-categoria":"horizontal",
+        "color":"claro"
+    }
 
 ]
