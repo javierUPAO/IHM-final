@@ -91,7 +91,7 @@ const Catalogo = () => {
                             <div key={idx} className="col-lg-3">
                                 <div className="card">
                                     <div className="img-holder">
-                                        <img src={e.src} className="img-fluid" alt="Product" />
+                                        <img src={e.url} className="img-fluid" alt="Product" />
                                     </div>
                                 </div>
                             </div>
