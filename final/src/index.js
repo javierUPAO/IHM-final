@@ -15,6 +15,7 @@ import Politicas from './components/politicas';
 import Wasap from './components/wasapbutton';
 /* Importamos el faq.js */
 import FAQ from './views/faq';
+import Consulta from './views/Consulta';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const feather = require('feather-icons');
@@ -36,6 +37,7 @@ root.render(
             <Route path='/nosotros' element={<Nosotros/>}/>
             <Route path='/contactanos' element={<Contactanos/>}/>
             <Route path='/Faq' element={<FAQ/>}/>
+            <Route path='/Consulta' element={<Consulta/>}/>
         </Routes>
         <Footer/>
     </Router>

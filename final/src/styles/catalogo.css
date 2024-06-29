@@ -1,0 +1,56 @@
+@media (max-width: 576px) {
+    .custom-behaviour {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        z-index: 1;
+        transition: 0.2s;
+    }
+
+    .custom-behaviour.closed {
+        left: -100%;
+        transition: 0.2s;
+    }
+}
+.card {
+    border-radius: 0;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.card .card-img-top {
+    border-radius: 0;
+    transition: .2s;
+}
+
+.img-holder {
+    overflow: hidden;
+}
+
+/*.card .card-img-top:hover {
+    scale: 2;
+    transition: .2s;
+    opacity: .2;
+    position: relative;
+}*/
+
+
+.img-holder:hover::after {
+    content: 'Imagen';
+    transition: .2s;
+    background: #333;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    font-weight: bold;
+}

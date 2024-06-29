@@ -2,10 +2,10 @@ import "../styles/style.css"
 function Nosotros()
 {
     return (
-        <div className="container-fluid n-p">
+        <div className="container n-p">
             {/* Nosotros 1 */}
             <div className="row nosotros">
-                <div className="col-md-12">
+                <div className="col-md-10">
                     <div className="row">
                         <h2 class="text-center nosotros_h2">Sobre Decoraciones Textiles Gino's </h2>
                     </div>
@@ -23,6 +23,7 @@ function Nosotros()
                         
                     </div>
                 </div>
+
                 <div className="col-md-6">
                     <img src="https://i0.wp.com/get.witei.com/wp-content/uploads/2021/11/mision-empresarial-1-1-1.jpg?fit=1199%2C622&ssl=1"></img>
                 </div>

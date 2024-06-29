@@ -16,7 +16,6 @@
 /* TARJETAS */
 
 .card {
-    background-color: #564e58 !important;
     width: 250px;
     height: 225px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -102,6 +101,18 @@
     overflow: hidden; /* Esto previene que el contenido sobresalga */
     
   }
+.c3{
+  overflow: hidden;
+}
+.c3 img{
+  transition: transform 0.5s ease;
+}
+.c3 img:hover
+{ transform: scale(1.1);
+  scale: 1.5;
+  transition: .2s;
+  position: relative;
+}
 .container-1{
     display: flex;
     justify-content: center;
@@ -282,4 +293,29 @@
 .vision img {
     max-width: 80%; /* Ajusta el ancho máximo de la imagen */
     height: auto;  /* Mantiene la proporción de la imagen */
+}
+
+.btn-vino
+{
+  background-color:var(--link)!important;
+  color: white!important;
+}
+.btn-vino:hover
+{
+  background-color:#762029!important;
+  color: #CFCFCF!important;
+}
+.btn-sky
+{
+  background-color: #1da9e4!important;
+}
+.btn-sky:hover
+{
+  background-color: #1780ad!important;
+}
+
+.miniatura
+{
+  max-width: 100px !important;
+  display:grid;
 }
