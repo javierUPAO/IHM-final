@@ -1,0 +1,64 @@
+.prodsel, .contactanos{
+    padding:1rem
+}
+.prodsel h2, .contactanos h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.prodsel {
+    background-color: #faf2e9;
+}
+
+.prodsel img {
+    width: 120px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.producto {
+    margin-bottom: 1rem; /* Espacio entre productos */
+    display: flex;
+    align-items: center;
+}
+
+.prodinfo {
+    /* Ajusta el espaciado y la alineación */
+    margin-left: 1.5rem; /* Espacio entre la imagen y los detalles */
+}
+  
+.prodinfo p {
+    margin-bottom: 0.25rem; /* Espacio entre líneas de texto */
+}
+  
+.prodtit {
+    /* Estilo para el título del producto */
+    font-size: 1.3rem; /* Tamaño de letra más grande */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color de texto más oscuro */
+}
+  
+.prod {
+    /* Estilo para los detalles del producto */
+    font-size: 1.1rem; /* Tamaño de letra más pequeño */
+    color: #555; /* Color de texto grisáceo */
+}
+
+.consulta .form-control {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+#buto{
+    margin-top: 1rem;
+    color:  #faf2e9;
+    background-color: #dc3547;
+}
+
+#buto:hover{
+    color:  #dc3547;
+    background-color:  #faf2e9;
+}
