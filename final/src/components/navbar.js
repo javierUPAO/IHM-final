@@ -22,6 +22,11 @@ function Navb() {
       Productos
     </Tooltip> 
   );
+  const renderTooltipInicio = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Inicio
+    </Tooltip> 
+  );
   const renderTooltipNosotros = (Nosotros) => (
     <Tooltip id="button-tooltip" {...Nosotros}>
       Nosotros
@@ -32,7 +37,11 @@ function Navb() {
       Preguntas y respuestas
     </Tooltip>
   );
-
+  const renderTooltipLista = (lista) => (
+    <Tooltip id="button-tooltip" {...lista}>
+      Lista de consulta
+    </Tooltip>
+  );
   
   const navigate = useNavigate();
 
@@ -52,9 +61,14 @@ function Navb() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             
-           <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipProductos} >  
+           <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipInicio} >  
+              <Nav.Link href="/home" className="link"> 
+                <i data-feather = "home"></i> Inicio
+              </Nav.Link>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipProductos} >  
               <Nav.Link href="/productos" className="link"> 
-                <i data-feather = "home"></i> Productos
+                <i data-feather = "box"></i> Productos
               </Nav.Link>
             </OverlayTrigger>
             <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipNosotros} >  
@@ -69,13 +83,15 @@ function Navb() {
             </OverlayTrigger> 
           </Nav>
           <Dropdown align="end">
+          <OverlayTrigger placement="left" delay={{ show: 5, hide: 5 }} overlay={ renderTooltipLista} >  
                     <Dropdown.Toggle id="dropdown-basic" className='btn btn-dark'>
                         <i data-feather = "clipboard"></i>
                         <span className="badge rounded-pill btn-vino">
                             {carrito.length}
                         </span>
+                    
                     </Dropdown.Toggle>
-
+          </OverlayTrigger>
                     <Dropdown.Menu>
                         {carrito.map((element, idx) => {
                             return <Dropdown.Item key={idx}>

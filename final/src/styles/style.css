@@ -28,7 +28,7 @@
     /* Aumente el valor para aumentar el tamaño */
     height: auto;
     /* Mantenga la misma altura que el ancho para un ícono cuadrado */
-    color: #f2efe9;
+    color: black;
 }
 
 .card01, .card02, .card03 {
@@ -318,4 +318,27 @@
 {
   max-width: 100px !important;
   display:grid;
+}
+.containerBread
+{ --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #dc3547;
+}
+
+ol{
+  margin:0px!important;
+  padding: 10px !important; ;
+}
+.breadcrumb-item
+{
+  color:white!important;
+}
+.breadcrumb-item a
+{
+  color:white!important;
 }

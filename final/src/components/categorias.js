@@ -1,5 +1,6 @@
 import "../styles/style.css"
 import React, { useEffect, useRef } from 'react';
+import { useNavigate } from "react-router-dom";
 function Categoria(){
     const scrollContainerRef = useRef(null);
     const lastMouseX = useRef(0);
@@ -64,7 +65,9 @@ function Categoria(){
             scrollContainer.removeEventListener('touchstart', handleTouchStart);
         };
     }, []);
-    
+    const navigate = useNavigate();
+    const handleClick = (slug) => {
+        navigate(slug);}
     return (
         <div>
             <div className="p20">
@@ -78,27 +81,27 @@ function Categoria(){
         
         <div className="container-fluid scroll" ref={scrollContainerRef}>
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.49.39-pm-1.jpeg" alt="imagen"/>
+                <img className="img-fluid img-zoom" onClick={() => {handleClick("/productos");}} src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.49.39-pm-1.jpeg" alt="imagen"/>
                 <p>Cortinas para cocina</p>
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.30.01-pm-1.jpeg?w=768" alt="imagen"/>
+                <img className="img-fluid img-zoom"  onClick={() => {handleClick("/productos");}} src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.30.01-pm-1.jpeg?w=768" alt="imagen"/>
                 <p>Cortinas con riel</p>
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.54.45-pm.jpeg" alt="imagen"/>
+                <img className="img-fluid img-zoom"  onClick={() => {handleClick("/productos");}} src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.54.45-pm.jpeg" alt="imagen"/>
                 <p>Forros para muebles y sillas</p>
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.40-pm.jpeg" alt="imagen"/>
+                <img className="img-fluid img-zoom"  onClick={() => {handleClick("/productos");}} src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-1.49.40-pm.jpeg" alt="imagen"/>
                 <p>Rollers y Persianas</p>
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.40.07-pm-1.jpeg?w=768" alt="imagen"/>
+                <img className="img-fluid img-zoom"  onClick={() => {handleClick("/productos");}} src="https://decortextilginos.wordpress.com/wp-content/uploads/2022/08/whatsapp-image-2022-08-17-at-2.40.07-pm-1.jpeg?w=768" alt="imagen"/>
                 <p>Cortinas con Tubo de Acero</p>
             </div>
 

@@ -2,12 +2,20 @@ import Carrusel from "../components/carrusel";
 import "../styles/style.css"
 import Trabajos from "../components/Nuestros Trabajos"
 import Categoria from "../components/categorias"
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 function Home() {
+    
     return (
         <div>
+            <div className="containerBread">
+                <Breadcrumb >
+                        <Breadcrumb.Item active >Inicio</Breadcrumb.Item>
+                </Breadcrumb>
+            </div>
             <Carrusel/>
             <div className="container-fluid">
                 <div className="row justify-content-center">
+
                     <div className="col-md-5">
                         <div className="container-1">
 

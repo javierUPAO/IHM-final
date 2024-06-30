@@ -4,10 +4,19 @@ import "../styles/style.css";
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 function FAQ() {
   return (
+    <div>
+    <div className="containerBread">
+                <Breadcrumb >
+                        <Breadcrumb.Item href="/home" >Inicio</Breadcrumb.Item>
+                        <Breadcrumb.Item active >FAQ</Breadcrumb.Item>
+                </Breadcrumb>
+            </div>
     <div className='container-fluid n-m imagen'>
+       
       <Row className="justify-content-center">
         {/*  Cards  */}
         <h1 data-aos="zoom-in" className='d-flex justify-content-center text-light py-4'>Guias de ayuda</h1>
@@ -82,6 +91,7 @@ function FAQ() {
         </Col>
       </Row>
     </div>
+  </div>
   );
 }
 

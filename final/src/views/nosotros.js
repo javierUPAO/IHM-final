@@ -1,8 +1,18 @@
 import "../styles/style.css"
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 function Nosotros()
 {
     return (
+        <>
+          <div className="containerBread">
+                <Breadcrumb >
+                    <Breadcrumb.Item href="/home">Inicio</Breadcrumb.Item>
+                    <Breadcrumb.Item active >nosotros</Breadcrumb.Item>
+                </Breadcrumb>
+            </div>
+        
         <div className="container n-p">
+    
             {/* Nosotros 1 */}
             <div className="row nosotros">
                 <div className="col-md-10">
@@ -25,13 +35,13 @@ function Nosotros()
                 </div>
 
                 <div className="col-md-6">
-                    <img src="https://i0.wp.com/get.witei.com/wp-content/uploads/2021/11/mision-empresarial-1-1-1.jpg?fit=1199%2C622&ssl=1"></img>
+                    <img src="https://i0.wp.com/get.witei.com/wp-content/uploads/2021/11/mision-empresarial-1-1-1.jpg?fit=1199%2C622&ssl=1" alt="imagen nosotros 1"></img>
                 </div>
             </div>
             {/* VISION */}
             <div className="row vision text-center centrar">
                 <div className="col-md-6">
-                <img src="https://www.liderempresarial.com/wp-content/uploads/2018/10/meeting.jpeg"></img>
+                <img src="https://www.liderempresarial.com/wp-content/uploads/2018/10/meeting.jpeg" alt="imagen nosotros 2"></img>
                 </div>
                 <div className="col-md-6">
                     <div className="row ">
@@ -41,6 +51,7 @@ function Nosotros()
                 </div>
             </div>
         </div>
+    </>
     );
 }
 

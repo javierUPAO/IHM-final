@@ -1,10 +1,7 @@
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
 import { useState, useEffect } from "react";
 import { getCarrito } from "../store/local";
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 function Consulta() {
     const [carrito, setCarrito] = useState([]);
 
@@ -13,16 +10,25 @@ function Consulta() {
     }, []);
 
     return (
+    <div>
+    <div className="containerBread">
+        <Breadcrumb >
+                <Breadcrumb.Item href="/home">Inicio</Breadcrumb.Item>
+                <Breadcrumb.Item href="/productos">Productos</Breadcrumb.Item>
+                <Breadcrumb.Item active >Consulta</Breadcrumb.Item>
+        </Breadcrumb>
+    </div>
     <div className="container">
+
         <h1>Bienvenido a la interfaz de consulta</h1>
         <div className="row">
             <div className='col-md-8'>
             {carrito.length > 0 ? 
             (
                 carrito.map((element, idx) => 
-                (
-                    
-                    <div className=" m-3" key={idx}>
+                    (
+                        
+                        <div className=" m-3" key={idx}>
                             <div className="col-md-4 bg-warning-subtle">
                                 <img src={element.url} className="rounded float-start miniatura" alt="..." />
                             </div>
@@ -39,9 +45,9 @@ function Consulta() {
                     </div>
                 ))
             ) : (
-                <p>No hay productos en el carrito.</p>
+                <p>No hay productos en la lista de consulta.</p>
             )
-            }
+        }
                     
             </div>
             <div className='col-md-4'>;
@@ -60,6 +66,7 @@ function Consulta() {
 
         </div>
     </div>
+  </div>
     );
 }
 
