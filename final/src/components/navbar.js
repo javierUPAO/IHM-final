@@ -82,7 +82,9 @@ function Navb() {
               </Nav.Link>
             </OverlayTrigger> 
           </Nav>
-          <Dropdown align="end">
+          
+        </Navbar.Collapse>
+        <Dropdown align="end">
           <OverlayTrigger placement="left" delay={{ show: 5, hide: 5 }} overlay={ renderTooltipLista} >  
                     <Dropdown.Toggle id="dropdown-basic" className='btn btn-dark'>
                         <i data-feather = "clipboard"></i>
@@ -118,8 +120,6 @@ function Navb() {
                         </Dropdown.Item>
                     </Dropdown.Menu>
       </Dropdown>
-        </Navbar.Collapse>
-
       </Container>
     </Navbar>
     </div>

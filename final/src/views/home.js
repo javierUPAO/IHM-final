@@ -18,7 +18,7 @@ function Home() {
 
                     <div className="col-md-5">
                         <div className="container-1">
-
+                            <h2>VISITANOS</h2>
                             <div className="row c1">
                                 <img className="img-fluid" src="https://images.pexels.com/photos/813691/pexels-photo-813691.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Responsiveimg"></img>
                             </div>
@@ -31,7 +31,7 @@ function Home() {
 
                     <div className="col-md-5">
                         <div className="container-1">
-
+                            <h2>CONTACTO</h2>
                             <div className="row c1">
                                 <img className="img-fluid" src="https://i.ibb.co/dPQvGL9/Contacto.png" alt="Responsive Img"></img>
                             </div>
