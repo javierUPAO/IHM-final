@@ -105,7 +105,7 @@ const Catalogo = () => {
           </div>
         </div>
         <div className="col-lg-10 col-md-8">
-          <div className="row g-3">
+          <div className="row g-3 d-flex justify-content-center">
           <div className='col-md-12 d-block d-sm-none'>
                         <div class="d-grid gap-2">
                             <button onClick={(e) => setTogglefilter(!toggleFilter)} className="btn btn-dark text-white fw-bold">
@@ -116,7 +116,7 @@ const Catalogo = () => {
             {filteredData.map((element) => {
               return (
                 <>
-                  <div className="col-lg-3 col-md-6">
+                  <div className="col-lg-3 col-md-6 w-a">
                     <div class="card">
                       <div className="row c3">
                         <img
