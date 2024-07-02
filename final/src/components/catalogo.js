@@ -37,7 +37,7 @@ const Catalogo = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid py-4">
       <div className="row">
         <div className={`col-lg-2 col-md-4 custom-behaviour ${ toggleFilter ? "closed" : "" }`}>
           <div className="card">
