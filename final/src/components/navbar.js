@@ -9,6 +9,7 @@ import "../styles/style.css";
 import { getCarrito, setCarrito } from "../store/local";
 import { useState, useEffect } from "react";
 import Dropdown from 'react-bootstrap/Dropdown';
+import {GlobalHotKeys } from 'react-hotkeys';
 
 function Navb() {
   // Inicializa el estado del carrito con los elementos almacenados en localStorage
@@ -34,18 +35,18 @@ setTimeout( () => {
   };
 
   const renderTooltipProductos = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
-      Productos
+    <Tooltip id="button-tooltip"{...props}>
+      Productos(Ctrl+X)
     </Tooltip>
   );
   const renderTooltipInicio = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Inicio
+      Inicio(Ctrl+Z)
     </Tooltip>
   );
   const renderTooltipNosotros = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Nosotros
+      Nosotros(Ctrl+C)
     </Tooltip>
   );
   const renderTooltipFaq = (props) => (
@@ -65,7 +66,34 @@ setTimeout( () => {
     navigate(slug);
   };
 
+  const atajos = {
+    IR_A_INICIO: 'ctrl+z',
+    IR_A_PRODUCTOS: 'ctrl+x',
+    IR_A_NOSOTROS: 'ctrl+c',
+    /* IR_A_FAQ: 'ctrl+f', */
+  };
+
+  const controlador = {
+    IR_A_INICIO: (event) => {
+      event.preventDefault();
+      navigate('/home'); // Navega a la ruta de inicio
+    },
+    IR_A_PRODUCTOS: (event) => {
+      event.preventDefault();
+      navigate('/productos'); // Navega a la ruta de productos
+    },
+    IR_A_NOSOTROS: (event) => {
+      event.preventDefault();
+      navigate('/nosotros'); // Navega a la ruta de nosotros
+    },
+    /* IR_A_FAQ: (event) => {
+      event.preventDefault();
+      navigate('/Faq'); // Navega a la ruta de FAQ
+    }, */
+  };
+
   return (
+    
     <div>
       <Navbar expand="lg" className="bg-body-tertiary n-p">
         <Container className="bg-nav">
@@ -74,6 +102,7 @@ setTimeout( () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
+          <GlobalHotKeys keyMap={atajos} handlers={controlador}>
             <Nav className="me-auto">
               <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipInicio} >
                 <Nav.Link href="/home" className="link">
@@ -96,6 +125,7 @@ setTimeout( () => {
                 </Nav.Link>
               </OverlayTrigger>
             </Nav>
+          </GlobalHotKeys>
           </Navbar.Collapse>
           <Dropdown align="end">
             <OverlayTrigger placement="left" delay={{ show: 5, hide: 5 }} overlay={renderTooltipLista} >
@@ -141,6 +171,7 @@ setTimeout( () => {
         </Container>
       </Navbar>
     </div>
+    
   );
 }
 
