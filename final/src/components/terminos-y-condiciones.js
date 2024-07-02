@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Terminos() {
     return (
         <div data-aos="zoom-in">
@@ -44,6 +43,7 @@ function Terminos() {
                     </li>
                 </ol>
             </div>
+           
         </div>
     );
 }

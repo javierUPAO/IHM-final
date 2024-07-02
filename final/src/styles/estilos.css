@@ -1,0 +1,14 @@
+@keyframes spin3D {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+.imagen01 img {
+    animation: spin3D 4s linear infinite;
+}
+
+.fondopolitica {
+    background-color: #f2efe9;
+    padding: 20px;
+}
+

@@ -41,43 +41,45 @@ function FAQ() {
           {/* Acordion */}
           <Accordion data-aos="zoom-in" className="py-5">
             <h1 data-aos="zoom-in" className="my-5 text-center text-white">Preguntas Frecuentes</h1>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>1.Tiene garantia?</Accordion.Header>
-              <Accordion.Body>
-                Sí, todos nuestros productos tienen garantía. La duración de la garantía varía según el tipo de producto, pero generalmente ofrecemos entre 1 y 2 años de garantía para asegurar la calidad y durabilidad de nuestros muebles y tapizados. Si tienes algún problema con tu compra dentro de este período, no dudes en contactarnos y estaremos encantados de asistirte.              
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>2.¿Qué métodos de pago aceptan?</Accordion.Header>
-              <Accordion.Body>
-                Aceptamos varios métodos de pago para tu comodidad, incluyendo:
-                <ul>
-                  <li>Efectivo</li>
-                  <li>Tarjetas de crédito y débito (Visa, MasterCard, American Express)</li>
-                  <li>Transferencias bancarias</li>
-                  <li>Pagos móviles (dependiendo de la disponibilidad local)</li>
-                </ul>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>3.¿En cuánto tiempo tendré listo mi producto?</Accordion.Header>
-              <Accordion.Body>
-                Si tienes alguna otra forma de pago en mente, por favor consúltanos y haremos lo posible para acomodarte.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>4.¿Qué beneficios tiene adquirir este producto o servicio? </Accordion.Header>
-              <Accordion.Body>
-                Al adquirir nuestros productos o servicios, obtienes una serie de beneficios:
-                <ul>
-                  <li>Productos de alta calidad a precios competitivos</li>
-                  <li>Garantía de satisfacción del 100%</li>
-                  <li>Atención al cliente personalizada y profesional</li>
-                  <li>Entrega rápida y segura</li>
-                  <li>Asesoramiento y soporte post-venta</li>
-                </ul>
-              </Accordion.Body>
-            </Accordion.Item>
+            <div className='shadow p-1 bg-body-tertiary rounded'>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>1.Tiene garantia?</Accordion.Header>
+                <Accordion.Body>
+                  Sí, todos nuestros productos tienen garantía. La duración de la garantía varía según el tipo de producto, pero generalmente ofrecemos entre 1 y 2 años de garantía para asegurar la calidad y durabilidad de nuestros muebles y tapizados. Si tienes algún problema con tu compra dentro de este período, no dudes en contactarnos y estaremos encantados de asistirte.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>2.¿Qué métodos de pago aceptan?</Accordion.Header>
+                <Accordion.Body>
+                  Aceptamos varios métodos de pago para tu comodidad, incluyendo:
+                  <ul>
+                    <li>Efectivo</li>
+                    <li>Tarjetas de crédito y débito (Visa, MasterCard, American Express)</li>
+                    <li>Transferencias bancarias</li>
+                    <li>Pagos móviles (dependiendo de la disponibilidad local)</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>3.¿En cuánto tiempo tendré listo mi producto?</Accordion.Header>
+                <Accordion.Body>
+                  Si tienes alguna otra forma de pago en mente, por favor consúltanos y haremos lo posible para acomodarte.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>4.¿Qué beneficios tiene adquirir este producto o servicio? </Accordion.Header>
+                <Accordion.Body>
+                  Al adquirir nuestros productos o servicios, obtienes una serie de beneficios:
+                  <ul>
+                    <li>Productos de alta calidad a precios competitivos</li>
+                    <li>Garantía de satisfacción del 100%</li>
+                    <li>Atención al cliente personalizada y profesional</li>
+                    <li>Entrega rápida y segura</li>
+                    <li>Asesoramiento y soporte post-venta</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </div>
           </Accordion>
         </Col>
       </Row>
