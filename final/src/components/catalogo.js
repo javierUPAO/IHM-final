@@ -1,9 +1,16 @@
 import { useState } from "react";
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Data from "../json/datos.json";
 import "../styles/catalogo.css";
 import { getCarrito, setCarrito } from "../store/local";
 
 const Catalogo = () => {
+  const feather = require('feather-icons');
+  setTimeout( () => {
+      feather.replace(); 
+  },500);
+
   const [filteredData, setFilteredData] = useState(Data);
   const [filtroCategoria, setFiltroCategoria] = useState("");
   const [filtroSubCategoria, setFiltroSubCategoria] = useState("");
@@ -14,6 +21,11 @@ const Catalogo = () => {
     setCarrito([...currentCarrito, e]);
 }
 
+ const renderTooltipFiltro = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Filtrar productos
+    </Tooltip>
+  );
   const filterData = (e) => {
     let filtered = Data;
     setTogglefilter(!toggleFilter);
@@ -89,13 +101,13 @@ const Catalogo = () => {
                     </option>
                   ))}
                 </select>
-
+              <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipFiltro} >
                 <div className="d-grid gap-2 mt-4">
                   <button onClick={filterData} className="btn btn-dark text-white fw-bold">
                     Filtrar
                   </button>
                 </div>
-
+              </OverlayTrigger>
                 <div>
                   {filteredData.length > 0 ? (
                     filteredData.map((item, index) => (
@@ -112,9 +124,12 @@ const Catalogo = () => {
           <div className="row g-3 d-flex justify-content-center">
           <div className='col-md-12 d-block d-sm-none'>
                         <div class="d-grid gap-2">
+                        <OverlayTrigger placement="right" delay={{ show: 5, hide: 5 }} overlay={renderTooltipFiltro} >
                             <button onClick={(e) => setTogglefilter(!toggleFilter)} className="btn btn-dark text-white fw-bold">
                                 Filtrar
                             </button>
+                            
+                        </OverlayTrigger>
                         </div>
                     </div>
             {filteredData.map((element) => {
@@ -142,7 +157,7 @@ const Catalogo = () => {
                             onClick={(e) => handleClick(element)}
                             className="btn btn-vino text-white fw-bold"
                           >
-                            <span className="ms-2">Añadir a consulta</span>
+                            <span className="ms-2"><i data-feather="plus"></i></span>
                           </button>
                         </div>
                       </div>

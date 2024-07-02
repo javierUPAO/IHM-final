@@ -72,7 +72,7 @@ function Consulta() {
                           {" "}
                           Sub Categoria: {element["sub-categoria"]}
                         </p>
-                        <p className="prod"> Descripcion: FALTA EL .JASON {}</p>
+                        <p className="prod"> Descripcion: {element.descripcion}</p>
                       </div>
                     </div>
                     <div className="col-md-4 consulta">

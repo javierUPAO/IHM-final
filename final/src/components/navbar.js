@@ -13,7 +13,10 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Navb() {
   // Inicializa el estado del carrito con los elementos almacenados en localStorage
   const [carrito, setCarritoState] = useState(getCarrito());
-
+  const feather = require('feather-icons');
+setTimeout( () => {
+    feather.replace(); 
+},500);
   // Sincroniza el estado del carrito con los cambios en localStorage cada segundo
   useEffect(() => {
     const interval = setInterval(() => {
@@ -119,8 +122,9 @@ function Navb() {
                       </div>
                     </div>
                     <div className='row d-flex justify-content-center'>
+
                       <div className='btn btn-vino eliminar' onClick={() => handleRemove(element.id)}>
-                        <p>Eliminar</p>
+                           <i data-feather="trash-2"></i> Eliminar
                       </div>
                     </div>
                   </div>

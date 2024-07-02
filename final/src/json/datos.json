@@ -5,7 +5,8 @@
         "nombre": "cortina clara",
         "categoria": "cortina",
         "sub-categoria": "tubo",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Una elegante cortina clara con un diseño clásico, perfecta para aportar luminosidad y elegancia a cualquier habitación."
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "nombre": "cortina oscura",
         "categoria": "cortina",
         "sub-categoria": "tubo",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Una sofisticada cortina oscura con soporte de tubo, ideal para crear ambientes íntimos y acogedores."
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "tubo",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara de estilo moderno con soporte de tubo, perfecta para cualquier espacio que necesite luz natural y estilo."
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "riel",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Cortina oscura montada en riel, diseñada para facilitar su deslizamiento y proporcionar una sensación de lujo."
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "riel",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara con riel, que combina funcionalidad y estética para cualquier tipo de decoración."
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "riel",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Hermosa cortina clara en riel, ideal para ventanas grandes y modernas."
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara especial para cocina, diseñada para resistir la humedad y fácil de limpiar."
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara para cocina, que aporta frescura y luminosidad al ambiente culinario."
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Elegante cortina clara para cocina, fácil de instalar y perfecta para cualquier diseño de interiores."
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara para cocina, con un diseño funcional y estético que se adapta a cualquier espacio."
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara especialmente diseñada para cocinas, ofreciendo durabilidad y estilo."
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara para cocina, ideal para mantener la luz natural mientras proporciona privacidad."
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Funcional cortina clara para cocina, perfecta para complementar cualquier diseño de interiores."
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara diseñada para cocinas, combinando estética y funcionalidad."
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara de cocina, que aporta un toque de frescura y luminosidad al ambiente."
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "nombre": "cortina",
         "categoria": "cortina",
         "sub-categoria": "cocina",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Cortina clara especialmente diseñada para cocinas, fácil de instalar y mantener."
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "nombre": "rollers",
         "categoria": "rollers",
         "sub-categoria": "",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Moderno roller claro, ideal para controlar la entrada de luz y agregar un toque contemporáneo a cualquier espacio."
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "nombre": "rollers",
         "categoria": "rollers",
         "sub-categoria": "",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Roller claro con diseño minimalista, perfecto para ambientes modernos y luminosos."
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "nombre": "rollers",
         "categoria": "rollers",
         "sub-categoria": "",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Elegante roller oscuro, diseñado para ofrecer privacidad y controlar la luz en cualquier habitación."
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "nombre": "persiana",
         "categoria": "persiana",
         "sub-categoria": "horizontal",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Persiana horizontal clara, que proporciona una excelente regulación de la luz y un estilo moderno."
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "nombre": "persiana",
         "categoria": "persiana",
         "sub-categoria": "vertical",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Persiana vertical clara, perfecta para grandes ventanales y espacios contemporáneos."
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "nombre": "persiana",
         "categoria": "persiana",
         "sub-categoria": "vertical",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Moderna persiana vertical clara, que combina funcionalidad y diseño para cualquier habitación."
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "nombre": "persiana",
         "categoria": "persiana",
         "sub-categoria": "horizontal",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Persiana horizontal clara, diseñada para proporcionar control de luz y privacidad con un toque de elegancia."
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "sillas",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para sillas, que ofrece protección y un estilo renovado para tus muebles."
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "sillas",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para sillas, diseñado para ofrecer comodidad y un aspecto limpio y moderno."
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "sillas",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para sillas, ideal para proteger tus muebles y renovar su apariencia."
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "sillas",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Forro oscuro para sillas, que combina elegancia y protección para tus muebles."
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Forro oscuro para muebles, diseñado para proteger y embellecer tus sofás y sillones."
     },
     {
         "id": 29,
@@ -229,7 +257,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para muebles, que aporta un toque fresco y limpio a tu sala de estar."
     },
     {
         "id": 30,
@@ -237,7 +266,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Forro oscuro para muebles, ideal para renovar y proteger tus muebles de uso diario."
     },
     {
         "id": 31,
@@ -245,7 +275,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para muebles, perfecto para dar un nuevo look a tu hogar mientras proteges tus sofás y sillones."
     },
     {
         "id": 32,
@@ -253,7 +284,8 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "claro"
+        "color": "claro",
+        "descripcion": "Forro claro para muebles, diseñado para mantener tus muebles en perfecto estado con un toque moderno."
     },
     {
         "id": 33,
@@ -261,6 +293,7 @@
         "nombre": "Forro",
         "categoria": "forro",
         "sub-categoria": "muebles",
-        "color": "oscuro"
+        "color": "oscuro",
+        "descripcion": "Forro oscuro para muebles, ideal para proteger y estilizar tus muebles de sala."
     }
 ]
