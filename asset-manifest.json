@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/IHM-final/static/css/main.cc1a20a1.css",
+    "main.js": "/IHM-final/static/js/main.0a49eb3a.js",
+    "static/media/fontello.eot?17859251": "/IHM-final/static/media/fontello.a4fd6bc970972ade5dd4.eot",
+    "static/media/fontello.ttf?17859251": "/IHM-final/static/media/fontello.0ccd079bf3d8cb9557ff.ttf",
+    "static/media/fontello.woff?17859251": "/IHM-final/static/media/fontello.a7348521ea9542a1e5b1.woff",
+    "static/media/fontello.woff2?17859251": "/IHM-final/static/media/fontello.be312ab37474066dbd45.woff2",
+    "static/media/fontello.svg": "/IHM-final/static/media/fontello.a5d3e1223db191d4f441.svg",
+    "index.html": "/IHM-final/index.html",
+    "main.cc1a20a1.css.map": "/IHM-final/static/css/main.cc1a20a1.css.map",
+    "main.0a49eb3a.js.map": "/IHM-final/static/js/main.0a49eb3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc1a20a1.css",
+    "static/js/main.0a49eb3a.js"
+  ]
+}
