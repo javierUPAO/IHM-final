@@ -81,11 +81,11 @@ function Trabajos() {
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://i.imgur.com/0tVxFik.png"/>
+                <img className="img-fluid img-zoom" src="https://i.imgur.com/0tVxFik.png" alt="imagen"/>
             </div>
 
             <div className="item c2">
-                <img className="img-fluid img-zoom" src="https://i.imgur.com/E59aNuX.png"/>
+                <img className="img-fluid img-zoom" src="https://i.imgur.com/E59aNuX.png" alt="imagen"/>
             </div>
 
             <div className="item c2">

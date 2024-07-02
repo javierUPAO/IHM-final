@@ -18,6 +18,7 @@ import FAQ from './views/faq';
 import Loading from './components/loading'
 import Consulta from './views/Consulta';
 
+
 const App = () => {
 
   const feather = require('feather-icons');
