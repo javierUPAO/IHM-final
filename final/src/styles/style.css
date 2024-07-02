@@ -349,3 +349,6 @@ ol{
   margin: 0 !important;
   padding: 5px!important;
 }
+.min-h{
+  min-height: 90vh!important;
+}
