@@ -78,6 +78,7 @@ const Catalogo = () => {
                     { label: "Todos", value: "" },
                     { label: "Cortina con Tubo", value: "tubo" },
                     { label: "Cortina con Riel", value: "riel" },
+                    { label: "Cortina para Cocina", value: "cocina" },
                     { label: "Persiana Horizontal", value: "horizontal" },
                     { label: "Persiana Vertical", value: "vertical" },
                     { label: "Forros para Sillas", value: "sillas" },
