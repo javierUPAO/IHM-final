@@ -5,11 +5,14 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 import "../styles/consulta.css";
 import { getCarrito } from "../store/local";
 import Enviado from "../components/Enviado";
+import Alert from "react-bootstrap/Alert";
+
 function Consulta() {
   const [carrito, setCarrito] = useState([]);
   const [nombre, setNombre] = useState('');
   const [celular, setCelular] = useState('');
   const [consultaEnviada, setConsultaEnviada] = useState(false);
+  const [error, setError] = useState('');
 
   useEffect(() => {
     setCarrito(getCarrito());
@@ -17,12 +20,18 @@ function Consulta() {
 
   const handleClick = (e) => {
     e.preventDefault();
-    if (nombre.trim() && celular.trim()) {
-      localStorage.clear();
-      setConsultaEnviada(true);
-    } else {
-      alert('Por favor, complete todos los campos.');
+    if (!nombre.trim() || !celular.trim()) {
+      setError('Por favor, completa todos los campos obligatorios antes de enviar.');
+      return;
     }
+    if (!/^\d{9}$/.test(celular)) {
+      setError('El número de celular debe tener 9 dígitos.');
+      return;
+    }
+
+    localStorage.clear();
+    setConsultaEnviada(true);
+    setError('');
   };
 
   return (
@@ -41,6 +50,7 @@ function Consulta() {
         ) : (
           <div className="row">
             <h2>Productos Seleccionados</h2>
+            {error && <Alert variant="danger">{error}</Alert>}
             <div className="col-md-8 prodsel">
               {carrito.length > 0 ? (
                 carrito.map((element, idx) => (
@@ -91,6 +101,7 @@ function Consulta() {
                     type="text"
                     placeholder="Ingrese su nombre"
                     required
+                    value={nombre}
                     onChange={(e) => setNombre(e.target.value)}
                   />
                 </Form.Group>
@@ -110,6 +121,7 @@ function Consulta() {
                     type="tel"
                     placeholder="Ingrese su celular"
                     required
+                    value={celular}
                     onChange={(e) => setCelular(e.target.value)}
                   />
                 </Form.Group>
