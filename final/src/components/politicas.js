@@ -33,9 +33,12 @@ const Politicas = () => {
 Al utilizar nuestro sitio web estás aceptando los términos y condiciones establecidos en esta política de privacidad. Tanto los términos de uso como la política de privacidad están sujetos a cambios sin previo aviso, y te recomendamos que revises regularmente esta página para asegurarte de que estás satisfecho con cualquier cambio.
                             </p>
                         </ol>  
+                        
             </div>
         </div>
     );
 };
+
+
 
 export default Politicas;

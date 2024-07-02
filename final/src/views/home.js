@@ -3,11 +3,15 @@ import "../styles/style.css"
 import Trabajos from "../components/Nuestros Trabajos"
 import Categoria from "../components/categorias"
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import buttomdark from "../components/themedark";
+
+
 function Home() {
-    
     return (
+        
         <div>
             <div className="containerBread">
+            
                 <Breadcrumb >
                         <Breadcrumb.Item active >Inicio</Breadcrumb.Item>
                 </Breadcrumb>
@@ -25,7 +29,6 @@ function Home() {
                             <div className="row">
                                 <p>Direccion:  Av. Húsares de Junín 801(La Libertad, Trujillo)</p>
                             </div>
-
                         </div>
                     </div>
 
@@ -38,12 +41,10 @@ function Home() {
                             <div className="row">
                                 <p>Contacto:949314078 </p>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-
             <Trabajos/>
             <Categoria/>
             

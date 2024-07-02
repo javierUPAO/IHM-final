@@ -1,0 +1,28 @@
+.buttondark {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 33px;
+    left: 33px; /* Ajustado a la izquierda */
+    background-color: rgb(21, 21, 21);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  
+  .buttondark:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 16, 1);
+  }
+  
+  .moon{
+  /* Ajusta la alineación del ícono dentro del círculo */
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  
+  }
