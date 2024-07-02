@@ -1,9 +1,12 @@
-import React from 'react';
+
 import '../styles/themeicon.css'
 const themedark= () => {
-    var element = document.body;
-    element.dataset.bsTheme =
-      element.dataset.bsTheme == "light" ? "dark" : "light";
+  var element = document.body;
+  element.dataset.bsTheme = element.dataset.bsTheme === "light" ? "dark" : "light";
+  
+  // Dispatch a custom event to notify about theme change
+  const event = new Event('themechange');
+  window.dispatchEvent(event);
   }
 
   function stepFunction(event) {

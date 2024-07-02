@@ -352,3 +352,18 @@ ol{
 .min-h{
   min-height: 90vh!important;
 }
+
+/* styles/style.css */
+.bg-light-footer-dark-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+.bg-light-footer-dark-mode a {
+  color: black !important;
+}
+
+.bg-light-footer-dark-mode .btn-dark {
+  background-color: black !important;
+  color: white !important;
+}
