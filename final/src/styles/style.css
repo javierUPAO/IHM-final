@@ -28,7 +28,7 @@
     /* Aumente el valor para aumentar el tamaño */
     height: auto;
     /* Mantenga la misma altura que el ancho para un ícono cuadrado */
-    color: black;
+    color: rgb(126, 30, 30);
 }
 
 .card01, .card02, .card03 {

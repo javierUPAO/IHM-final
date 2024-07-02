@@ -19,6 +19,7 @@ import Loading from './components/loading'
 import Consulta from './views/Consulta';
 
 
+import darkmode from './components/themedark';
 const App = () => {
 
   const feather = require('feather-icons');
@@ -46,6 +47,10 @@ if (loading) {
     <Router>
       <div id="root">
         <Navb />
+        <div className='buttondark' onClick={darkmode}>
+        <i data-feather="moon" className='moon'></i>
+      </div>
+
         <Wasap />
           <Routes>
             <Route path="/" element={<Home />} />
