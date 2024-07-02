@@ -60,6 +60,7 @@ const Catalogo = () => {
                     { label: "Cortina", value: "cortina" },
                     { label: "Roller", value: "rollers" },
                     { label: "Persiana", value: "persiana" },
+                    { label: "Forro", value: "forro" },
                   ].map((it, idx) => (
                     <option key={idx} value={it.value}>
                       {it.label}
@@ -79,6 +80,8 @@ const Catalogo = () => {
                     { label: "Cortina con Riel", value: "riel" },
                     { label: "Persiana Horizontal", value: "horizontal" },
                     { label: "Persiana Vertical", value: "vertical" },
+                    { label: "Forros para Sillas", value: "sillas" },
+                    { label: "Forros para muebles", value: "muebles" },
                   ].map((it, idx) => (
                     <option key={idx} value={it.value}>
                       {it.label}
